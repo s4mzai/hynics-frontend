@@ -8,6 +8,7 @@ import About from './pages/About'
 import Calculator from './pages/Calculator'
 import Contact from './pages/Contact'
 import Navbar from './components/Navbar'
+import Footer from "@/components/LandingPage/Footer"
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route path='/calculator' element={<Calculator />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
+        <Footer/>
      </BrowserRouter>
     </>
   )

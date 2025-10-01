@@ -4,7 +4,7 @@ import Industries from "@/components/LandingPage/IndustriesSection"
 import FuelComparisonTable from "@/components/LandingPage/FuelComparisonTable"
 import TeamMembers from "@/components/LandingPage/TeamMembersSection"
 import RecognitionSection from "@/components/LandingPage/Recognition"
-import FooterSection from "@/components/LandingPage/Footer"
+import CallToAction from "@/components/LandingPage/CallToAction"
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
       <FuelComparisonTable/>
       <TeamMembers/>  
       <RecognitionSection/>
-      <FooterSection/>
+      <CallToAction/>
     </div>
   )
 }

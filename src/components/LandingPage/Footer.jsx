@@ -1,38 +1,10 @@
 import React from 'react';
 import { Linkedin, Twitter, Instagram, Facebook, MapPin, Mail, Phone } from 'lucide-react';
-import { Button } from '../ui/button';
 import { Link } from 'react-router-dom';
 
-const CallToAction = () => {
-  return (
-    <div className="w-full bg-gradient-to-r from-[#0047AB] to-[#1CA9C9] md:p-20">
-      <div className="max-w-4xl mx-auto text-center p-8 rounded-xl">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4 leading-tight">
-          Ready to Transform Your Hydrogen Future?
-        </h2>
-        <p className="text-gray-200 mb-8 max-w-2xl mx-auto">
-          Contact us today to learn more about our mobile and fixed hydrogen fuel stations and how they can benefit your business or community.
-        </p>
 
-        <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-          <Link to="/contact">
-            <Button className="w-full bg-cyan-400 text-black font-semibold py-5 px-8 rounded-full hover:bg-cyan-500 transition-transform transform">
-              Get Started
-            </Button>
-          </Link>
 
-          <Link to="/calculator">
-            <Button className="w-full border text-white font-semibold py-5 px-8 rounded-full bg-white text-black hover:bg-white/80">
-              Try Calculator
-            </Button>
-          </Link>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-const FooterContent = () => {
+const Footer = () => {
   const quickLinks = [
     { name: 'Home', href: '/home' },
     { name: 'Problem & Solution', href: '/problem-solution' },
@@ -49,7 +21,8 @@ const FooterContent = () => {
   ];
 
   return (
-    <footer className="bg-black text-white pt-16 pb-6">
+
+    <footer className="bg-black text-white pt-16 pb-6 w-full">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-8">
           
@@ -122,13 +95,5 @@ const FooterContent = () => {
   );
 };
 
-const FooterSection = () => {
-  return (
-    <section className="w-full">
-      <CallToAction />
-      <FooterContent />
-    </section>
-  );
-};
 
-export default FooterSection;
+export default Footer;
