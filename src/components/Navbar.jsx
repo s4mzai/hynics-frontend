@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-24">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex-shrink-0 flex items-center gap-1">
+          <div className="flex-shrink-0 flex items-center gap-1 h-10 w-30">
             <img
               src="https://www.hynics.in/lovable-uploads/logo.png"
               alt="Hynics Logo"
@@ -75,7 +75,7 @@ const Navbar = () => {
 
       {/* Mobile View */}
       {isOpen && (
-        <div className="lg:hidden backdrop-blur-md bg-black/80 border-t border-white/10">
+        <div className="xl:hidden backdrop-blur-md bg-black/80 border-t border-white/10">
           <div className="px-4 pt-2 pb-4 space-y-2">
             {navLinks.map((link) => (
               <Link
