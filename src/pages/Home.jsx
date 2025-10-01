@@ -1,7 +1,10 @@
+import HeroSection from "@/components/LandingPage/HeroSection"
 
 const Home = () => {
   return (
-    <div className='w-full h-screen bg-black text-white'>Home</div>
+    <div>
+      <HeroSection/>
+    </div>
   )
 }
 
