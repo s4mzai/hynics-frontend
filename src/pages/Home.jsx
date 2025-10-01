@@ -3,6 +3,7 @@ import KeyOfferings from "@/components/LandingPage/KeyOfferings"
 import Industries from "@/components/LandingPage/IndustriesSection"
 import FuelComparisonTable from "@/components/LandingPage/FuelComparisonTable"
 import TeamMembers from "@/components/LandingPage/TeamMembersSection"
+import RecognitionSection from "@/components/LandingPage/Recognition"
 
 const Home = () => {
   return (
@@ -11,7 +12,8 @@ const Home = () => {
       <KeyOfferings/>
       <Industries/>
       <FuelComparisonTable/>
-      <TeamMembers/>
+      <TeamMembers/>  
+      <RecognitionSection/>
     </div>
   )
 }
