@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const CallToAction = () => {
   return (
-    <div className="w-full bg-gradient-to-r from-[#0047AB] to-[#1CA9C9] p-12 md:p-20">
+    <div className="w-full bg-gradient-to-r from-[#0047AB] to-[#1CA9C9] md:p-20">
       <div className="max-w-4xl mx-auto text-center p-8 rounded-xl">
         <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4 leading-tight">
           Ready to Transform Your Hydrogen Future?

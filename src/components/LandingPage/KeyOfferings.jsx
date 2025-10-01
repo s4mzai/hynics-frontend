@@ -42,15 +42,15 @@ const DetailItem = ({ number, title, description, isHurdle = true }) => {
     : 'hover:scale-[1.01] hover:border-green-500/80 shadow-md hover:shadow-green-500/20';
 
   return (
-    <div className={`w-full max-w-[90%] p-8 rounded-xl mb-4 transition-all duration-300 transform bg-[#FFFFFF0D] border border-gray-900 ${hoverClasses} mx-auto`}>
-      <div className="flex items-start">
-        <div className={`text-3xl font-bold mr-6 ${isHurdle ? 'text-red-500' : 'text-green-500'} flex-shrink-0`}>
-          {number}
-        </div>
-        <div className="flex-1">
+    <div className={`w-full max-w-[90%]  p-8 rounded-xl mb-4 transition-all duration-300 transform bg-[#FFFFFF0D] border border-gray-900 ${hoverClasses} mx-auto`}>
+      <div className="flex flex-col items-start ">
+        <div className="flex items-center justify-center gap-3">
+          <div className={`text-3xl mb-2 font-bold ${isHurdle ? 'text-red-500' : 'text-green-500'} flex-shrink-0`}>
+            {number}
+          </div>
           <h4 className="text-xl font-semibold text-white mb-2">{title}</h4>
-          <p className="text-gray-400 text-base leading-relaxed">{description}</p>
         </div>
+        <p className="text-gray-400 text-base leading-relaxed">{description}</p>
       </div>
     </div>
   );

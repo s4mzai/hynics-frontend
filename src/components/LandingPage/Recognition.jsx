@@ -26,7 +26,7 @@ const SupportedBy = [
 const SupportLogoCard = ({ url, name, alt }) => {
 
   return (
-    <div className="flex flex-col items-center p-10 rounded-xl hover:bg-[#FFFFFF0D] justify-start text-center p-2 w-1/2 sm:w-1/4">
+    <div className="flex flex-col items-center p-10 rounded-xl hover:bg-[#FFFFFF0D] justify-start text-center  w-full sm:w-1/2 md:w-1/4">
       <img
         src={url}
         alt={alt}
@@ -39,8 +39,8 @@ const SupportLogoCard = ({ url, name, alt }) => {
 
 const RecognitionSection = () => {
   return (
-    <div className="bg-black min-h-screen flex items-center justify-center font-sans">
-        <div className="flex flex-col items-center justify-center w-full max-w-7xl px-4 py-16">
+    <div className="bg-black flex items-center justify-center mb-10 sm:mb-40">
+        <div className="flex flex-col items-center justify-center w-full max-w-7xl px-4">
         <div className="text-center mb-10">
             <p className="text-sky-400 text-xs uppercase font-semibold tracking-widest mb-1">
             RECOGNITION

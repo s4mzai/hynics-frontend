@@ -35,7 +35,7 @@ const impactAreas = [
 ];
 
 const ImpactCard = ({ icon: Icon, title, description }) => (
-  <div className="p-6 md:p-8 bg-white/5 rounded-xl shadow-lg hover:bg-white/10 transition-colors duration-300 h-full flex flex-col">
+  <div className="p-6 md:p-8 bg-white/5 rounded-xl shadow-lg hover:bg-white/10 transition-colors duration-300 h-full flex flex-col items-center">
     <div className="mb-4 text-blue-400">
       <Icon size={32} strokeWidth={1.5} />
     </div>
