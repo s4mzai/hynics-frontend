@@ -51,21 +51,21 @@ const FooterContent = () => {
   return (
     <footer className="bg-black text-white pt-16 pb-6">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-gray-800 pb-10">
-
-          <div className="space-y-4">
-            <div className='text-cyan-400 font-bold flex items-center'>
-                <img
+        <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-8">
+          
+          <div className="flex-1 min-w-[250px]">
+            <div className='text-cyan-400 font-bold flex items-center mb-4'>
+              <img
                 src="https://www.hynics.in/lovable-uploads/logo.png"
                 alt="Hynics Logo"
-                className="w-8 h-8 rounded-full object-cover"
-                />
-                <span>Hynics</span>
+                className="w-8 h-8 rounded-full object-cover mr-2"
+              />
+              <span>Hynics</span>
             </div>
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-400 text-sm mb-4">
               Delivering 24/7 high-speed hydrogen supply with mobile and fixed fuel stations for a sustainable future.
             </p>
-            <div className="flex space-x-4 pt-2">
+            <div className="flex space-x-4">
               {socialIcons.map((item, index) => (
                 <Link key={index} to={item.href} className="text-gray-400 hover:text-cyan-400 transition duration-150">
                   <item.icon size={20} />
@@ -74,7 +74,7 @@ const FooterContent = () => {
             </div>
           </div>
 
-          <div>
+          <div className="flex-1 min-w-[200px]">
             <h3 className="text-lg font-semibold mb-4 text-white">Quick Links</h3>
             <ul className="space-y-3">
               {quickLinks.map((link) => (
@@ -90,26 +90,27 @@ const FooterContent = () => {
             </ul>
           </div>
 
-          <div className="md:col-span-2">
+          <div className="flex-1 min-w-[250px]">
             <h3 className="text-lg font-semibold mb-4 text-white">Contact Us</h3>
             <div className="space-y-3 text-sm">
               <div className="flex items-start text-gray-400">
                 <MapPin size={18} className="mr-3 mt-1 flex-shrink-0 text-cyan-400" />
-                <p>DTU Innovation and Incubation Foundation, Delhi</p>
+                <p className='hover:text-cyan-400 transition'>DTU Innovation and Incubation Foundation, Delhi</p>
               </div>
               <div className="flex items-center text-gray-400">
                 <Phone size={18} className="mr-3 flex-shrink-0 text-cyan-400" />
-                <p className="hover:text-white transition">+91-80762 76374</p>
+                <p className="hover:text-cyan-400 transition">+91-80762 76374</p>
               </div>
               <div className="flex items-center text-gray-400">
                 <Mail size={18} className="mr-3 flex-shrink-0 text-cyan-400" />
-                <p className="hover:text-white transition">contact@hynics.com</p>
+                <p className="hover:text-cyan-400 transition">contact@hynics.com</p>
               </div>
             </div>
           </div>
+
         </div>
 
-        <div className="mt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 space-y-4 md:space-y-0">
+        <div className="mt-12 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 space-y-4 md:space-y-0">
           <p>&#169; 2025 Hynics. All rights reserved.</p>
           <div className="flex space-x-6">
             <Link to="/privacy-policy" className="hover:text-white transition">Privacy Policy</Link>

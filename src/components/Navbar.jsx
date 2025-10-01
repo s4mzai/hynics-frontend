@@ -21,14 +21,14 @@ const Navbar = () => {
       <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-24">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex-shrink-0 flex items-center gap-1 h-10 w-30">
+          <Link to={"/"}className="flex-shrink-0 flex items-center gap-1 h-10 w-30">
             <img
               src="https://www.hynics.in/lovable-uploads/logo.png"
               alt="Hynics Logo"
               className="h-10 w-auto"
             />
             <span className="text-cyan-400 text-2xl font-bold">Hynics</span>
-          </div>
+          </Link>
 
           {/* Routes */}
           <div className="hidden xl:flex items-center justify-center flex-1 gap-2">
