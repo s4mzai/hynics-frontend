@@ -2,6 +2,7 @@ import HeroSection from "@/components/LandingPage/HeroSection"
 import KeyOfferings from "@/components/LandingPage/KeyOfferings"
 import Industries from "@/components/LandingPage/IndustriesSection"
 import FuelComparisonTable from "@/components/LandingPage/FuelComparisonTable"
+import TeamMembers from "@/components/LandingPage/TeamMembersSection"
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <KeyOfferings/>
       <Industries/>
       <FuelComparisonTable/>
+      <TeamMembers/>
     </div>
   )
 }
