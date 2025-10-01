@@ -7,11 +7,14 @@ import Industries from './pages/Industries'
 import About from './pages/About'
 import Calculator from './pages/Calculator'
 import Contact from './pages/Contact'
+import Navbar from './components/Navbar'
+
 function App() {
 
   return (
     <>
      <BrowserRouter>
+        <Navbar /> 
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/problem-solution' element={<ProblemSolution />} />
