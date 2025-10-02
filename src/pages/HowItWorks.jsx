@@ -1,7 +1,10 @@
+import OurTechnology from "@/components/HowItWorksPage/OurTechnology"
 
 const HowItWorks = () => {
   return (
-    <div>HowItWorks</div>
+    <div>
+      <OurTechnology/>
+    </div>
   )
 }
 
