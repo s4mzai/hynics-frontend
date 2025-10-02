@@ -22,7 +22,7 @@ const Footer = () => {
 
   return (
 
-    <footer className="bg-black text-white pb-6 border-t-1 pt-10 border-white/30 w-full">
+    <footer className="bg-black text-white pb-6 border-t-1 pt-10 border-white/12 w-full">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-8">
           

@@ -72,7 +72,7 @@ const IndustryCard = ({ title, description, applications, Icon }) => {
         </h3>
       </div>
 
-      <p className="text-sm text-gray-300 mb-6 flex-grow">
+      <p className="text-base text-gray-300 mb-6 flex-grow">
         {description}
       </p>
       <div className="mt-auto">
@@ -81,7 +81,7 @@ const IndustryCard = ({ title, description, applications, Icon }) => {
         </h4>
         <ul className="text-xs text-gray-400 space-y-1 list-disc ml-4">
           {applications.map((app, index) => (
-            <li key={index} className="pl-1">
+            <li key={index} className="pl-1 text-base">
               {app}
             </li>
           ))}
