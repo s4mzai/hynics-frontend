@@ -1,7 +1,8 @@
+import ChallengeSolution from "@/components/ProblemSolutionPage/ChallengeSolution"
 
 const ProblemSolution = () => {
   return (
-    <div>problemSolution</div>
+    <ChallengeSolution/>
   )
 }
 
