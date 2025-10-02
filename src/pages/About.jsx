@@ -1,7 +1,10 @@
+import AboutHynics from "@/components/AboutPage/AboutHynics"
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <AboutHynics/>
+    </div>
   )
 }
 
