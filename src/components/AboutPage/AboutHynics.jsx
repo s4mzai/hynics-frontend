@@ -54,7 +54,7 @@ const AboutHynics = () => {
         <div className="space-y-6 text-gray-300">
           {content.body.map((p, index) => (
             <p key={index} className="text-base leading-relaxed">
-              <span dangerouslySetInnerHTML={{
+              <span dangerouslySetI nnerHTML={{
                 __html: p.text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
               }} />
             </p>
