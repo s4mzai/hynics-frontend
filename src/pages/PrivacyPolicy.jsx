@@ -4,7 +4,7 @@ const PrivacyPolicy = () => {
   return (
     <div className="bg-black text-white min-h-screen py-10 px-4 sm:px-6 lg:px-8 font-sans">
       <header className="text-center mb-10">
-        <p className="text-sm uppercase tracking-widest text-teal-400 mb-2">LEGAL</p>
+        <p className="text-base uppercase tracking-widest text-cyan-400 mb-2">LEGAL</p>
         <h1 className="text-3xl sm:text-4xl font-bold">Privacy Policy</h1>
       </header>
 
@@ -146,7 +146,7 @@ const PrivacyPolicy = () => {
           <p className="text-sm">Hynics</p>
           <p className="text-sm">DTU Innovation and Incubation Foundation</p>
           <p className="text-sm">Delhi Technological University</p>
-          <p className="text-sm">Delhi - 110042, India</p>
+          <p className="text-sm">Delhi - 110042</p>
           <p className="text-sm">Email: privacy@hynics.com</p>
           <p className="text-sm">Phone: +91 80762 76374</p>
         </div>

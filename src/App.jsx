@@ -10,6 +10,7 @@ import Contact from './pages/Contact'
 import Navbar from './components/Navbar'
 import Footer from "@/components/Footer"
 import PrivacyPolicy from './pages/PrivacyPolicy'
+import TermsOfService from './pages/TermsOfServices'
 
 function App() {
 
@@ -26,6 +27,8 @@ function App() {
           <Route path='/calculator' element={<Calculator />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
+          <Route path='/terms-of-service' element={<TermsOfService/>}/>
+
         </Routes>
         <Footer/>
      </BrowserRouter>
