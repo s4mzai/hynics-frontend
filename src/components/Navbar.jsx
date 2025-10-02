@@ -27,7 +27,7 @@ const Navbar = () => {
               alt="Hynics Logo"
               className="h-10 w-auto"
             />
-            <span className="text-cyan-400 text-2xl font-bold">Hynics</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500 text-2xl font-bold">Hynics</span>
           </Link>
 
           {/* Routes */}
@@ -53,7 +53,7 @@ const Navbar = () => {
           <div className="hidden xl:flex items-center">
             <Link to="/contact">
               <Button
-                className="w-full bg-cyan-400 hover:bg-cyan-500 text-black px-6 py-5 rounded-full font-semibold transition-all duration-200 cursor-pointer"
+                className="w-full bg-gradient-to-r from-cyan-400 to-blue-500 hover:bg-cyan-500 text-black px-6 py-5 rounded-full font-semibold transition-all duration-200 cursor-pointer"
                 size="lg"
               >
                 Get Started

@@ -91,7 +91,7 @@ const ChallengeSolution = () => {
       <header className="text-center mb-16 pt-8">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3">
           <span className="text-white">Hydrogen Adoption:</span>
-          <span className="text-cyan-400 ml-3">Challenges & Solutions</span>
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500 ml-3">Challenges & Solutions</span>
         </h1>
         <p className="text-lg text-gray-400 max-w-2xl mx-auto">
           Understanding the key barriers to hydrogen technology adoption and how Hynics is overcoming them with innovative approaches.

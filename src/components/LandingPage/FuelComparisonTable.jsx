@@ -90,7 +90,7 @@ const FuelComparisonTable = () => {
     <div className="min-h-screen bg-black flex flex-col items-center p-4 sm:p-12 font-sans">
       <header className="py-12 text-center">
         <h1 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-          Why Choose <span className="text-cyan-400">Hydrogen</span>?
+          Why Choose <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">Hydrogen</span>?
         </h1>
       </header>
 
@@ -116,7 +116,7 @@ const FuelComparisonTable = () => {
 
       <Link to={"/calculator"} className="w-full max-w-sm sm:max-w-md lg:max-w-fit mt-8">
         <Button
-          className="w-full lg:w-auto px-6 py-6 bg-cyan-500 text-black font-bold rounded-full text-lg shadow-lg hover:bg-cyan-400 transition duration-300 transform hover:scale-105"
+          className="w-full lg:w-auto px-6 py-6 cursor-pointer bg-gradient-to-r from-cyan-400 to-blue-500 text-black font-bold rounded-full text-lg shadow-lg hover:bg-cyan-400 transition duration-300 transform hover:scale-105"
         >
           Try Our Hydrogen Calculator
         </Button>

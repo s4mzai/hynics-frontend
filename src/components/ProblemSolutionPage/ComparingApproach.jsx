@@ -46,7 +46,7 @@ const ComparingApproach = () => {
           Comparative Analysis
         </span>
         <h2 className="text-3xl font-extrabold text-white mt-3">
-          Traditional vs. <span className="text-cyan-300">Hynics Approach</span>
+          Traditional vs. <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">Hynics Approach</span>
         </h2>
       </div>
 

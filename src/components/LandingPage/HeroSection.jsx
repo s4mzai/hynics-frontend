@@ -10,7 +10,7 @@ const HeroSection = () => {
             {/* Left Column */}
             <div className="flex-[0.5] text-center md:text-left">
               <h1 className="font-bold leading-tight text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
-                <span className="text-cyan-400">24/7</span> High-speed Hydrogen Supply at Your Doorstep
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">24/7</span> High-speed Hydrogen Supply at Your Doorstep
               </h1>
   
               <p className="mt-6 text-gray-300 text-base sm:text-lg md:text-xl lg:text-xl">
@@ -19,7 +19,7 @@ const HeroSection = () => {
   
               <div className="mt-8 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
                 <Link to={"/contact"} className="flex-none">
-                    <Button className=" w-full bg-cyan-400 text-black font-semibold py-5 px-8 rounded-full hover:bg-cyan-500 transition-transform transform">
+                    <Button className=" w-full  bg-gradient-to-r from-cyan-400 to-blue-500 text-black font-semibold py-5 px-8 rounded-full hover:bg-cyan-500 transition-transform transform">
                     Get Started
                     </Button>
                 </Link>
