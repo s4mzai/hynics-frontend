@@ -40,7 +40,7 @@ const HynicsComparisonRow = ({ data }) => {
 
 const ComparingApproach = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center p-4 sm:p-8">
+    <div className="min-h-[38rem] flex flex-col items-center p-4 sm:p-8">
       <div className="text-center mb-6">
         <span className="text-xs font-semibold tracking-widest uppercase text-cyan-400 bg-cyan-400/20 px-2 py-1 rounded-full">
           Comparative Analysis

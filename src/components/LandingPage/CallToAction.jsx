@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const CallToAction = () => {
     return (
-      <div className="w-full bg-gradient-to-r from-[#0047AB] to-[#1CA9C9] md:p-20">
+      <div className="w-full bg-gradient-to-r from-[#0047AB] to-[#1CA9C9] md:p-20 mb-16">
         <div className="max-w-4xl mx-auto text-center p-8 rounded-xl">
           <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4 leading-tight">
             Ready to Transform Your Hydrogen Future?
@@ -20,7 +20,7 @@ const CallToAction = () => {
             </Link>
   
             <Link to="/calculator">
-              <Button className="w-full border text-white font-semibold py-5 px-8 rounded-full bg-white text-black hover:bg-white/80">
+              <Button className="w-full border font-semibold py-5 px-8 rounded-full bg-white text-black hover:bg-white/80">
                 Try Calculator
               </Button>
             </Link>
