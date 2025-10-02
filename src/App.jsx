@@ -8,7 +8,7 @@ import About from './pages/About'
 import Calculator from './pages/Calculator'
 import Contact from './pages/Contact'
 import Navbar from './components/Navbar'
-import Footer from "@/components/LandingPage/Footer"
+import Footer from "@/components/Footer"
 
 function App() {
 
