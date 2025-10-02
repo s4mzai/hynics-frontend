@@ -1,8 +1,13 @@
 import ChallengeSolution from "@/components/ProblemSolutionPage/ChallengeSolution"
+import ComparingApproach from "@/components/ProblemSolutionPage/ComparingApproach"
 
 const ProblemSolution = () => {
   return (
-    <ChallengeSolution/>
+    <div>
+      <ChallengeSolution/>
+      <ComparingApproach/>
+    </div>
+
   )
 }
 
