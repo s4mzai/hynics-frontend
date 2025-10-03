@@ -59,7 +59,7 @@ const DetailItem = ({ number, title, description, isHurdle = true }) => {
 
 const KeyOfferings = () => {
   return (
-    <div className="min-h-screen bg-black text-white font-inter">
+    <div className="min-h-fit bg-black text-white font-inter">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
 
         <div className="text-center mb-16">

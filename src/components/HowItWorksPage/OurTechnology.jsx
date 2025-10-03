@@ -39,7 +39,7 @@ const OurTechnology = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-black text-white font-sans py-12 md:py-20 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-fit bg-black text-white font-sans py-12 md:py-20 px-4 sm:px-6 lg:px-8">
       <header className="text-center max-w-4xl mx-auto mb-16">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-4">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">

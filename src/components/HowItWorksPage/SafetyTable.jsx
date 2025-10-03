@@ -24,7 +24,7 @@ const SafetyTable = () => {
   );
 
   return (
-    <div className="min-h-screen bg-black flex flex-col items-center justify-center p-4">
+    <div className="min-h-fit mb-10 bg-black flex flex-col items-center justify-center p-4">
       <div className="text-center mb-12 max-w-3xl">
         <p className={`text-sm font-semibold tracking-widest uppercase mb-3 px-2 py-0.5  bg-cyan-400/20 ${accentColor} inline-block rounded-full`}>
           SAFETY FIRST

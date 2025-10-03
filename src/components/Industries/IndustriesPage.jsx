@@ -93,7 +93,7 @@ const IndustryCard = ({ title, description, applications, Icon }) => {
 
 const IndustriesPage = () => {
   return (
-    <div className="min-h-screen py-16 px-4 sm:px-6 lg:px-8 font-sans">
+    <div className="min-h-fit py-16 px-4 sm:px-6 lg:px-8 font-sans">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight">

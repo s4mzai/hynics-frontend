@@ -86,7 +86,7 @@ const Card = ({ number, title, description, isChallenge }) => {
 
 const ChallengeSolution = () => {
   return (
-    <div className="min-h-screen text-white p-4 sm:p-8 lg:p-12">
+    <div className="min-h-fit min-w-fit max-w-[70%] mx-auto text-white p-4 sm:p-8 lg:p-12">
 
       <header className="text-center mb-16 pt-8">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3">

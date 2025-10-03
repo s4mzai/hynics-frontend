@@ -33,7 +33,7 @@ const content = {
 
 const AboutHynics = () => {
   return (
-    <div className="min-h-screen text-gray-100 p-4 sm:p-8">
+    <div className="min-h-fit text-gray-100 p-4 sm:p-8">
       <header className="max-w-4xl mx-auto text-center py-8 sm:py-12">
         <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4 tracking-tight">
           About <span className='bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500'>  Hynics</span>

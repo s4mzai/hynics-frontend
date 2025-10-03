@@ -87,7 +87,7 @@ const ComparisonRow = ({ data }) => {
 
 const FuelComparisonTable = () => {
   return (
-    <div className="min-h-screen bg-black flex flex-col items-center p-4 sm:p-12 font-sans">
+    <div className="min-h-fit bg-black flex flex-col items-center p-4 sm:p-12 font-sans">
       <header className="py-12 text-center">
         <h1 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
           Why Choose <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">Hydrogen</span>?

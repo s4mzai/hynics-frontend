@@ -45,7 +45,7 @@ const TeamMemberCard = ({ name, role, imageUrl, alt, linkedinUrl }) => (
         className="
             flex flex-col rounded-xl overflow-hidden 
             bg-white/5 border border-gray-800 backdrop-blur-sm
-            shadow-xl shadow-gray-900 transition duration-300 transform hover:scale-[1.03]
+            transition duration-300 transform hover:scale-[1.03]
             max-w-xs w-full mx-auto shadow-inner shadow-white/5
             relative group  /* Added 'group' to enable hover effects on children */
         "
@@ -80,7 +80,7 @@ const TeamMemberCard = ({ name, role, imageUrl, alt, linkedinUrl }) => (
 
 const TeamMembers = () => {
     return (
-        <div className="min-h-screen bg-black text-white font-sans p-4 sm:p-8 md:p-12">
+        <div className="min-h-fit bg-black text-white font-sans p-4 sm:p-8 md:p-12">
             <div className="max-w-7xl mx-auto py-10">
 
                 <div className="text-center mb-12 sm:mb-16">

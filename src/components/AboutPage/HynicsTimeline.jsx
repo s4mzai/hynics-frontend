@@ -46,7 +46,7 @@ const TimelineItem = ({ year, title, description, alignRight }) => {
 
 const HynicsTimeline = () => {
   return (
-    <div className="relative min-h-screen bg-black text-white py-16 px-4 sm:px-8 lg:px-16">
+    <div className="relative min-h-fit w-[90%] max-w-[1400px] mx-auto bg-black text-white py-16 px-4 sm:px-8 lg:px-16">
       <div className="text-center mb-16">
         <p className="text-cyan-400 text-sm tracking-widest uppercase font-semibold mb-2">Our Journey</p>
         <h1 className="text-4xl sm:text-5xl font-extrabold">

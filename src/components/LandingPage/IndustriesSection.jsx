@@ -44,9 +44,9 @@ const ImpactCard = ({ icon: Icon, title, description }) => (
   </div>
 );
 
-const App = () => {
+const IndustriesSection = () => {
   return (
-    <div className="min-h-screen bg-black p-8 md:p-12 lg:p-20 flex justify-center items-center">
+    <div className="min-h-fit bg-black p-8 md:p-12 lg:p-20 flex justify-center items-center">
       <div className="w-full max-w-7xl">
         <header className="text-center mb-12">
           <div className="inline-block px-3 py-1 mb-3 text-xs font-medium uppercase tracking-widest text-blue-400 bg-gray-800 rounded-full">
@@ -71,4 +71,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default IndustriesSection;
