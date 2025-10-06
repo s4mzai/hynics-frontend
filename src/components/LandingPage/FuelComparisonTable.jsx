@@ -1,7 +1,7 @@
 import React from 'react';
 import { Check, X, Wind, Zap, Fuel, Earth, Plane } from 'lucide-react';
-import { Button } from '../ui/button';
-import { Link } from 'react-router-dom';
+import { Button } from '@/components/ui/button';
+import GradientButton from '@/components/GradientButton';
 
 const comparisonData = [
   {
@@ -113,14 +113,14 @@ const FuelComparisonTable = () => {
           </div>
         </div>
       </div>
-
-      <Link to={"/calculator"} className="w-full max-w-sm sm:max-w-md lg:max-w-fit mt-8">
-        <Button
-          className="w-full lg:w-auto px-6 py-6 cursor-pointer bg-gradient-to-r from-cyan-400 to-blue-500 text-black font-bold rounded-full text-lg shadow-lg hover:bg-cyan-400 transition duration-300 transform hover:scale-105"
-        >
-          Try Our Hydrogen Calculator
-        </Button>
-      </Link>
+      
+      <div  className="w-full max-w-sm sm:max-w-md lg:max-w-fit mt-8">
+        <GradientButton
+          className="w-full lg:w-auto py-6 font-bold rounded-full text-lg shadow-lg transition duration-300 transform hover:scale-105"
+          text="Try Our Hydrogen Calculator"
+          whereTo="/calculator"
+        />
+      </div>
     </div>
   );
 };

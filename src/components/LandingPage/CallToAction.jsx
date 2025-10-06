@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import GradientButton from '../GradientButton';
 
 const CallToAction = () => {
     return (
@@ -13,11 +14,10 @@ const CallToAction = () => {
           </p>
   
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <Link to="/contact">
-              <Button className="w-full cursor-pointer bg-gradient-to-r from-cyan-400 to-blue-500 text-black font-semibold py-5 px-8 rounded-full hover:bg-cyan-500 transition-transform transform">
-                Get Started
-              </Button>
-            </Link>
+            <GradientButton 
+              text={"Get Started"}
+              whereTo={"/contact"}
+            />
   
             <Link to="/calculator">
               <Button className="w-full cursor-pointer border font-semibold py-5 px-8 rounded-full bg-white text-black hover:bg-white/80">

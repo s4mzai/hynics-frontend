@@ -1,3 +1,4 @@
+import GradientButton from "../GradientButton";
 import { Button } from "../ui/button";
 import { Link } from "react-router-dom";
 
@@ -18,11 +19,12 @@ const HeroSection = () => {
               </p>
   
               <div className="mt-8 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
-                <Link to={"/contact"} className="flex-none">
-                    <Button className=" w-full  bg-gradient-to-r from-cyan-400 to-blue-500 text-black font-semibold py-5 px-8 rounded-full hover:bg-cyan-500 transition-transform transform">
-                    Get Started
-                    </Button>
-                </Link>
+                <div className="flex-none">
+                    <GradientButton 
+                      text={"Get Started"}
+                      whereTo={"/contact"}
+                    />
+                </div>
                 <Link to={"/calculator"} className="flex-none">
                     <Button className="w-full border border-gray-600 text-white font-semibold py-5 px-8 rounded-full hover:bg-white hover:text-black transition-colors">
                     Try Calculator
