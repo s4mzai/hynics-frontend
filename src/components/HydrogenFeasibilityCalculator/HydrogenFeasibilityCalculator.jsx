@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { DollarSign, Calculator, Leaf, CheckCircle2, XCircle } from "lucide-react";
+import { DollarSign, Calculator, Leaf, CheckCircle2, XCircle, Sprout } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -119,7 +119,7 @@ const HydrogenFeasibilityCalculator = () => {
 
   return (
     <div className="min-h-fit text-gray-200 font-sans flex items-center justify-center p-4">
-      <main className="w-full max-w-6xl mx-auto rounded-2xl shadow-2xl p-6 md:p-10 h-full border-2 border-transparent">
+      <main className="w-full max-w-6xl mx-auto rounded-2xl shadow-2xl py-6 md:p-10 h-full">
         <div className="text-center mb-10 flex flex-col gap-5">
           <h1 className="text-3xl md:text-5xl font-bold text-white">
             Hydrogen{" "}
@@ -204,10 +204,13 @@ const HydrogenFeasibilityCalculator = () => {
           </div>
 
           <div className="lg:col-span-2">
-            <h2 className="text-xl font-semibold text-white mb-5">Comparison Results</h2>
 
             <div className="space-y-6">
-              <div className="bg-[#FFFFFF0D] rounded-lg p-4 border border-gray-800">
+              <div className="bg-[#FFFFFF0D] rounded-lg border border-gray-800 p-6 md:p-8">
+                <div className="flex items-center mb-5 gap-3">
+                    <Sprout color="cyan"/>
+                    <h2 className="text-xl font-semibold text-white">Comparison Results</h2>
+                </div>
                 <table className="w-full text-left">
                   <thead>
                     <tr className="border-b border-gray-600">
