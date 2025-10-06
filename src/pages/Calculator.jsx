@@ -1,7 +1,8 @@
+import HydrogenFeasibilityCalculator from "@/components/HydrogenFeasibilityCalculator/HydrogenFeasibilityCalculator"
 
 const Calculator = () => {
   return (
-    <div>Calculator</div>
+    <HydrogenFeasibilityCalculator/>
   )
 }
 
