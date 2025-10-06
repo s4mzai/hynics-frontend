@@ -79,11 +79,13 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <Link to="/contact" onClick={() => setIsOpen(false)}>
-              <Button className="w-full bg-cyan-400 hover:bg-cyan-500 text-black px-6 py-5 rounded-full font-semibold transition-all duration-200 mt-4">
-                Get Started
-              </Button>
-            </Link>
+            <div onClick={() => setIsOpen(false)}>
+              <GradientButton 
+                className="w-full mt-4"
+                text={"Get Started"}
+                whereTo={"/contact"}
+              />
+            </div>
           </div>
         </div>
       )}
