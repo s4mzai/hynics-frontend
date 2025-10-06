@@ -21,6 +21,7 @@ const HeroSection = () => {
               <div className="mt-8 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
                 <div className="flex-none">
                     <GradientButton 
+                      className="w-full"
                       text={"Get Started"}
                       whereTo={"/contact"}
                     />
@@ -35,7 +36,7 @@ const HeroSection = () => {
   
             {/* Right Column */}
             <div className="flex-[0.5] flex justify-center md:justify-end">
-              <div className="bg-white/30 w-[90%] h-90">
+              <div className="bg-[#FFFFFF0D] border border-gray-800 flex items-center justify-center rounded-xl text-gray-600 w-[90%] h-90">
                 *Hero Section Image Here
               </div>
             </div>
