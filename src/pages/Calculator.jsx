@@ -2,7 +2,9 @@ import HydrogenFeasibilityCalculator from "@/components/HydrogenFeasibilityCalcu
 
 const Calculator = () => {
   return (
-    <HydrogenFeasibilityCalculator/>
+    <div className="mt-20">
+      <HydrogenFeasibilityCalculator/>
+    </div>
   )
 }
 

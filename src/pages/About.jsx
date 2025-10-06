@@ -6,7 +6,7 @@ import TeamMembers from "@/components/LandingPage/TeamMembersSection"
 
 const About = () => {
   return (
-    <div>
+    <div className="mt-20">
       <AboutHynics/>
       <WhatDrivesUs/>
       <TeamMembers/>

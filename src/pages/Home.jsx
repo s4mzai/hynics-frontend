@@ -8,7 +8,7 @@ import CallToAction from "@/components/LandingPage/CallToAction"
 
 const Home = () => {
   return (
-    <div>
+    <div className="mt-20">
       <HeroSection/>
       <KeyOfferings/>
       <Industries/>

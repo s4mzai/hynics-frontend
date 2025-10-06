@@ -3,7 +3,7 @@ import ComparingApproach from "@/components/ProblemSolutionPage/ComparingApproac
 
 const ProblemSolution = () => {
   return (
-    <div>
+    <div className="mt-20">
       <ChallengeSolution/>
       <ComparingApproach/>
     </div>
